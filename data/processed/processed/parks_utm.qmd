@@ -1,0 +1,36 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.11-Prizren">
+  <identifier>DPR.Parks</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>DPR.Parks</title>
+  <abstract>Locations of Seattle Parks and Recreation (SPR) responsibilities within the city limits. SPR location responsibilities may include: ownership, leases, maintenance, temporary transfer of jurisdiction, life estate, crew quarters, headquarters, storage facilities, tidelands, joint use agreements. This is the detailed transactions level park GIS layer. It is the most current Parks GIS layer. Park uses can be sorted using the "Park Use" field. If you just want the Park outlines (boundaries) then use DPR.ParksBND. This is the presentation view of DPR.Parks_Edit.
+
+
+Locations of Seattle Parks and Recreation responsibilites withn the city limits. Presentation View.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Parks</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <rights>Seattle Parks and Recreation</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83(HARN) / Washington North (ftUS)",BASEGEOGCRS["NAD83(HARN)",DATUM["NAD83 (High Accuracy Reference Network)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4152]],CONVERSION["SPCS83 Washington North zone (US Survey feet)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",47,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-120.833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",48.7333333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",47.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",1640416.667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United States (USA) - Washington - counties of Chelan; Clallam; Douglas; Ferry; Grant north of approximately 47°30'N; Island; Jefferson; King; Kitsap; Lincoln; Okanogan; Pend Oreille; San Juan; Skagit; Snohomish; Spokane; Stevens; Whatcom."],BBOX[47.08,-124.79,49.05,-117.02]],ID["EPSG",2926]]</wkt>
+      <proj4>+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=48.7333333333333 +lat_2=47.5 +x_0=500000.0001016 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs</proj4>
+      <srsid>895</srsid>
+      <srid>2926</srid>
+      <authid>EPSG:2926</authid>
+      <description>NAD83(HARN) / Washington North (ftUS)</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" minz="0" maxz="0" minx="-180" crs="EPSG:2926" miny="-65.47629600000000494" maxx="180" maxy="47.73563000000000045"/>
+  </extent>
+</qgis>

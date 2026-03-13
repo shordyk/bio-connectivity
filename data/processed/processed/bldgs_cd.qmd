@@ -1,0 +1,34 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.11-Prizren">
+  <identifier>BuildingOutlines2023.lyr</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Building Outlines - 2023</title>
+  <abstract>Hand Drawn Building Outlines derived from King County 2023 ortho imagery by Eagleview Corp.
+
+Building Outlines 2023</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Buildings</keyword>
+    <keyword>2023</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <rights>Enterprise GIS Data Team</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent/>
+</qgis>
